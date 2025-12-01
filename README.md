@@ -1,49 +1,33 @@
-# 🤾 Handebol Total: Dicas, História e Atualidade (Tema P&B)
+# 🏅 Handebol: Perfil Oficial e Informação Estruturada
 
-Este repositório contém uma página web simples, construída com **HTML, CSS e JavaScript**, dedicada ao esporte Handebol, focada em informações atuais, históricas, dicas de jogo e um perfil em destaque.
+Este projeto é um *template* de página web para o GitHub Pages, focado em Handebol. Foi desenvolvido com um design moderno e estruturado, inspirado em plataformas oficiais de Comitês Esportivos (mantendo o tema Preto & Branco, ou P&B).
 
-O projeto utiliza um design minimalista em **Preto e Branco (P&B)**, ideal para destacar o conteúdo e manter um visual limpo e profissional.
+## ✨ Destaques do Projeto
 
-## 🌟 Perfil em Destaque
+* **Design Profissional (P&B):** Layout moderno e limpo, com alto contraste (Preto e Branco) para leitura otimizada e um visual institucional.
+* **Tecnologias:** HTML5 (Estrutura), CSS3 (Estilo) e JavaScript (Interatividade).
+* **Funcionalidade JS:** Implementação de um botão para **Inversão de Contraste** (`.inverter-cores`), oferecendo uma opção de tema escuro/claro com um clique.
 
-O projeto serve como um modelo para perfis de jogadores, utilizando os dados fornecidos:
+## 📋 Estrutura do Conteúdo
 
-* **Nome/ID:** Instagram: IEECAETANOROCHA
-* **Contato:** PEDRO.JACINTO.MIGUEL@ESCOLA.PR.GOV.BR
+O site é organizado em seções claras e objetivas:
 
-## 🚀 Como Visualizar o Site
+1.  **Perfil em Destaque:** Informações chave sobre o jogador (IG IEECAETAROCHA).
+2.  **Atualidade do Handebol:** Tendências táticas e o dinamismo do esporte.
+3.  **Dicas Essenciais e Fundamentos:** Explicações sobre regras e técnicas de jogo (Passe, Defesa 3-2-1).
+4.  **Jogadores que Fizeram História:** Tabela de referências e lendas da modalidade.
+5.  **Handebol nas Últimas Olimpíadas:** Resumo dos resultados e destaques olímpicos.
 
-A maneira mais fácil de ver o projeto é através do **GitHub Pages**.
+## 🔑 Informações do Atleta
 
-1.  Acesse as **Configurações (Settings)** do repositório.
-2.  Vá para a seção **Pages**.
-3.  Selecione a branch principal (`main` ou `master`) e a pasta raiz (`/`).
-4.  Após alguns minutos, o site estará disponível no endereço: `https://[SEU-USUARIO].github.io/[NOME-DO-REPOSITORIO]/`
+* **ID/Nome:** IG IEECAETAROCHA
+* **Contato:** [PEDRO.JACINTO.MIGUEL@ESCOLA.PR.GOV.BR](mailto:PEDRO.JACINTO.MIGUEL@ESCOLA.PR.GOV.BR)
 
-## 📋 Estrutura do Projeto
+## 🚀 Como Visualizar (GitHub Pages)
 
-O repositório é composto por três arquivos essenciais:
+Para hospedar o site usando seu repositório:
 
-1.  **`index.html`**: A estrutura principal do conteúdo (perfil, dicas, história, olimpíadas).
-2.  **`styles.css`**: O arquivo de estilos que aplica o tema Preto e Branco e o layout responsivo.
-3.  **`README.md`** (este arquivo): A documentação do projeto.
-
-## ✨ Recursos de Destaque (Com JavaScript)
-
-O site inclui uma funcionalidade simples de **JavaScript** para aumentar a acessibilidade e a interatividade:
-
-* **Alternância de Tema (Inversão de Contraste):** Um botão no cabeçalho permite ao usuário inverter o esquema de cores instantaneamente (trocando Preto por Branco e vice-versa), melhorando a legibilidade em diferentes condições de luz.
-
-## 🌐 Seções de Conteúdo
-
-O site está dividido nas seguintes áreas informativas:
-
-* **Perfil em Destaque:** Apresentação do jogador **IG IEECAETAROCHA** e seu foco atual.
-* **Atualidade do Handebol:** Tendências táticas e o dinamismo do esporte moderno.
-* **Dicas Essenciais e Fundamentos:** Explicações sobre o passe, sistemas defensivos (como o 3-2-1) e as regras fundamentais.
-* **Jogadores que Fizeram História:** Tabela com lendas do handebol internacional (como Nikola Karabatić e Duda Amorim).
-* **Handebol nas Últimas Olimpíadas:** Resumo dos campeões e destaques recentes.
-
-## ✍️ Licença
-
-Este projeto é de código aberto e está disponível sob a licença [MIT ou outra que desejar].
+1.  No seu repositório, vá para **Settings (Configurações)**.
+2.  Clique em **Pages**.
+3.  Selecione a branch principal (`main` ou `master`) e a pasta raiz (`/ (root)`).
+4.  Salve. O site estará online no endereço do GitHub Pages em alguns minutos.
