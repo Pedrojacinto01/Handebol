@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Handebol Total: Dicas, História e Atualidade</title>
+    <title>Handebol Elite: Informação e Performance</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body id="handebol-body">
 
     <header>
-        <h1>Handebol | Time Brasil Estilo</h1>
-        <button id="theme-toggle">Inverter Tema (Contraste)</button> 
+        <h1>Handebol | Performance & Informação</h1>
+        <button id="theme-toggle">Inverter Contraste (Cores Neutras)</button> 
     </header>
 
     <main>
@@ -26,103 +26,86 @@
 
         <section id="atualidade">
             <h2>🌍 Atualidade do Handebol</h2>
-            <p>O handebol moderno é marcado pela **velocidade** e pela **física**. As regras de jogo rápido (fast break) e as substituições ofensivas/defensivas (fly substitution) tornaram o esporte um dos mais dinâmicos do mundo. A Europa domina os principais campeonatos (EHF Champions League), mas equipes asiáticas e sul-americanas têm mostrado grande crescimento.</p>
+            <p>O handebol moderno exige atletas completos. A transição rápida e a inteligência tática superaram a força bruta. O investimento em tecnologia (análise de vídeo e estatísticas avançadas) está definindo a elite do esporte.</p>
 
-            <h3>Tendências Táticas:</h3>
-            <ul>
-                <li>**Defesa 6-0 Sólida:** Foco em proteger o gol e forçar o arremesso de longe.</li>
-                <li>**Ataque 7 contra 6:** Retirada do goleiro para colocar um jogador de linha extra no ataque (com regras específicas).</li>
-                <li>**Goleiros Versáteis:** Goleiros que não apenas defendem, mas também são rápidos para iniciar o contra-ataque ou atuar como 'líbero' no 7x6.</li>
-            </ul>
-        </section>
+            <button type="button" class="collapsible">▶️ Clique para ver as Tendências Táticas Avançadas</button>
+            <div class="content">
+                <p><strong>Defesa de Alta Pressão:</strong> Não apenas 6-0, mas variações 5-1 e 4-2 com troca rápida de posição para confundir o ataque adversário. A meta é forçar erros antes da linha de 9 metros.</p>
+                <p><strong>Especialistas por Setor:</strong> O uso de *pivôs* específicos para bloqueio ou finalização, e laterais com diferentes perfis de arremesso (potência vs. precisão).</p>
+            </div>
 
-        <section id="dicas-explicacoes">
-            <h2>💡 Dicas Essenciais e Fundamentos</h2>
-            <div class="dicas-container">
-                <article>
-                    <h3>O Passe Perfeito</h3>
-                    <p>Um bom passe deve ser **preciso** (mirando o peito ou ombro do companheiro) e ter a **velocidade** correta para evitar a interceptação. Use o passe picado em situações de muita pressão da defesa.</p>
-                </article>
-                <article>
-                    <h3>A Defesa 3-2-1</h3>
-                    <p>Esta é uma defesa **agressiva**, onde os jogadores de frente (avançados) pressionam os armadores adversários. É ideal para equipes rápidas, mas requer excelente condicionamento físico e coordenação para evitar espaços vazios na linha de 6 metros.</p>
-                </article>
-                <article>
-                    <h3>Regra dos 3 Segundos e 3 Passos</h3>
-                    <p>O jogador só pode dar **3 passos** com a bola na mão e só pode segurá-la por no máximo **3 segundos** antes de driblar, passar ou arremessar. Dominar essa regra é crucial para evitar faltas de ataque.</p>
-                </article>
+            <button type="button" class="collapsible">▶️ Clique para ver os Desafios Físicos Atuais</button>
+            <div class="content">
+                <p><strong>Resistência Aeróbica:</strong> Essencial para suportar o ritmo de *fast break* e a rotação defensiva constante. O jogador precisa estar sempre pronto para o sprint.</p>
+                <p><strong>Potência de Salto:</strong> Fundamental para arremessos por cima da defesa, garantindo um ângulo de finalização melhor.</p>
             </div>
         </section>
 
         <section id="jogadores-historicos">
-            <h2>🏅 Jogadores que Fizeram História</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Nome</th>
-                        <th>País</th>
-                        <th>Posição</th>
-                        <th>Conquista Notável</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Nikola Karabatić</td>
-                        <td>França</td>
-                        <td>Armador Central</td>
-                        <td>Tri-Campeão Olímpico e Mundial. Ícone da versatilidade.</td>
-                    </tr>
-                    <tr>
-                        <td>Jackson Richardson</td>
-                        <td>França</td>
-                        <td>Armador Central</td>
-                        <td>Considerado um dos mais criativos da história. Jogador do Ano IHF.</td>
-                    </tr>
-                    <tr>
-                        <td>Eduarda Amorim (Duda)</td>
-                        <td>Brasil</td>
-                        <td>Lateral Esquerda</td>
-                        <td>Liderança no Inédito Título Mundial do Brasil (2013). Jogadora do Ano IHF.</td>
-                    </tr>
-                    <tr>
-                        <td>Ivano Balić</td>
-                        <td>Croácia</td>
-                        <td>Armador Central</td>
-                        <td>Conhecido por seu estilo imprevisível e genial. Múltiplos prêmios IHF.</td>
-                    </tr>
-                </tbody>
-            </table>
+            <h2>🏅 Lendas Detalhadas do Handebol</h2>
+
+            <button type="button" class="collapsible">✅ Nikola Karabatić (França) - O Três Vezes Olímpico</button>
+            <div class="content">
+                <p><strong>Posição:</strong> Armador Central/Lateral | <strong>Conquista Notável:</strong> Tri-Campeão Olímpico e Mundial.</p>
+                <p>Karabatić é o sinônimo de versatilidade. Seu legado reside na capacidade de defender no centro (6 metros) e imediatamente organizar o ataque com passes precisos ou arremessos potentes.</p>
+            </div>
+
+            <button type="button" class="collapsible">✅ Eduarda Amorim (Duda) - Orgulho Brasileiro</button>
+            <div class="content">
+                <p><strong>Posição:</strong> Lateral Esquerda | <strong>Conquista Notável:</strong> Liderança no Título Mundial Inédito do Brasil (2013). Jogadora do Ano IHF.</p>
+                <p>Duda Amorim se destacou por sua força defensiva incomparável e sua visão de ataque. Seu impacto transcendeu o Brasil, sendo uma referência na Europa por anos.</p>
+            </div>
+
+            <button type="button" class="collapsible">✅ Ivano Balić (Croácia) - O Mestre da Criatividade</button>
+            <div class="content">
+                <p><strong>Posição:</strong> Armador Central | <strong>Conquista Notável:</strong> Múltiplos prêmios IHF de Jogador do Ano.</p>
+                <p>Balić era conhecido por seu estilo imprevisível. Ele conseguia criar jogadas impossíveis, driblando a linha defensiva com fintas e passes que só ele via no momento certo.</p>
+            </div>
         </section>
 
         <section id="olimpiadas">
-            <h2>🥇 Handebol nas Últimas Olimpíadas</h2>
-            <p>O torneio olímpico de handebol é o auge da competição. As últimas edições reforçaram a força das potências europeias, mas também mostraram a evolução de outras nações:</p>
-            <ul>
-                <li>**Campeões Masculino (Tóquio 2020):** França 🇫🇷</li>
-                <li>**Campeões Feminino (Tóquio 2020):** França 🇫🇷</li>
-                <li>**Destaque Brasileiro:** A seleção feminina demonstrou garra, mas não conseguiu avançar para a fase eliminatória, mostrando a necessidade de maior investimento na base.</li>
-            </ul>
+            <h2>🥇 Análise das Últimas Olimpíadas</h2>
             <blockquote class="destaque-olimpiadas">
-                "As finais olímpicas recentes demonstraram que a defesa e o ataque rápido são a chave para o sucesso no handebol de elite."
+                "O domínio da França (vencedores no masculino e feminino em Tóquio 2020) reflete a importância de um trabalho de base consistente e a capacidade de adaptação tática durante um torneio longo."
             </blockquote>
+            <p>O nível de exigência física e técnica nos Jogos de 2020 foi altíssimo. As equipes que souberam rodar o elenco e manter a precisão nas finalizações sob pressão levaram a melhor.</p>
+            <ul>
+                <li>**Masculino:** A vitória francesa veio pela defesa impecável nos momentos cruciais.</li>
+                <li>**Feminino:** A final feminina foi decidida na estratégia de contra-ataque e na eficiência das goleiras.</li>
+            </ul>
         </section>
     </main>
 
     <footer>
-        <p>Desenvolvido para o Projeto Handebol - Contato: <a href="mailto:PEDRO.JACINTO.MIGUEL@ESCOLA.PR.GOV.BR">PEDRO.JACINTO.MIGUEL@ESCOLA.PR.GOV.BR</a></p>
+        <p>Projeto Handebol Elite | Contato: <a href="mailto:PEDRO.JACINTO.MIGUEL@ESCOLA.PR.GOV.BR">PEDRO.JACINTO.MIGUEL@ESCOLA.PR.GOV.BR</a></p>
     </footer>
 
     <script>
-        // Função para alternar a classe 'inverter-cores' no body
+        // 1. Lógica do Acordeão (Expansão de Conteúdo)
+        var coll = document.getElementsByClassName("collapsible");
+        for (let i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                    this.innerHTML = this.innerHTML.replace("▼", "▶"); // Mudar seta para fechado
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                    this.innerHTML = this.innerHTML.replace("▶", "▼"); // Mudar seta para aberto
+                }
+            });
+        }
+
+        // 2. Lógica de Inversão de Contraste (Tema Neutro)
         document.getElementById('theme-toggle').onclick = function() {
             document.getElementById('handebol-body').classList.toggle('inverter-cores');
-
-            // Opcional: Mudar o texto do botão
+            
             const button = document.getElementById('theme-toggle');
             if (document.getElementById('handebol-body').classList.contains('inverter-cores')) {
-                button.textContent = 'Voltar ao Padrão P/B';
+                button.textContent = 'Voltar ao Padrão Azul/Laranja';
             } else {
-                button.textContent = 'Inverter Tema (Contraste)';
+                button.textContent = 'Inverter Contraste (Cores Neutras)';
             }
         };
     </script>
