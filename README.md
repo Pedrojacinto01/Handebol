@@ -1,4 +1,4 @@
-# 🚀 HANDEBOL ELITE: PERFORMANCE & INFORMAÇÃO
+# HANDEBOL ELITE: PERFORMANCE & INFORMAÇÃO
 
 [![Status](https://img.shields.io/badge/Status-Pronto_para_Deploy-success)](link_do_seu_site)
 [![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS-blue)](/)
