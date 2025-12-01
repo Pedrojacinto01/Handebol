@@ -6,14 +6,15 @@
     <title>Handebol Total: Dicas, História e Atualidade</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body id="handebol-body">
 
     <header>
-        <h1>Handebol Total | O Esporte em Preto & Branco</h1>
+        <h1>Handebol | Time Brasil Estilo</h1>
+        <button id="theme-toggle">Inverter Tema (Contraste)</button> 
     </header>
 
     <main>
-        <section id="perfil-jogador" class="highlight">
+        <section id="perfil-jogador">
             <h2>⭐ Perfil em Destaque</h2>
             <div class="card">
                 <h3>IG IEECAETAROCHA</h3>
@@ -111,5 +112,19 @@
         <p>Desenvolvido para o Projeto Handebol - Contato: <a href="mailto:PEDRO.JACINTO.MIGUEL@ESCOLA.PR.GOV.BR">PEDRO.JACINTO.MIGUEL@ESCOLA.PR.GOV.BR</a></p>
     </footer>
 
+    <script>
+        // Função para alternar a classe 'inverter-cores' no body
+        document.getElementById('theme-toggle').onclick = function() {
+            document.getElementById('handebol-body').classList.toggle('inverter-cores');
+
+            // Opcional: Mudar o texto do botão
+            const button = document.getElementById('theme-toggle');
+            if (document.getElementById('handebol-body').classList.contains('inverter-cores')) {
+                button.textContent = 'Voltar ao Padrão P/B';
+            } else {
+                button.textContent = 'Inverter Tema (Contraste)';
+            }
+        };
+    </script>
 </body>
 </html>
