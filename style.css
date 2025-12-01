@@ -1,0 +1,146 @@
+/* Definições de cores para o tema Preto & Branco */
+:root {
+    --cor-principal: #000;      /* Preto */
+    --cor-secundaria: #FFF;    /* Branco */
+    --cor-texto-escuro: #333;   /* Cinza escuro para corpo do texto */
+    --cor-fundo-card: #F4F4F4;  /* Cinza claro para fundo dos cards */
+    --cor-borda: #DDD;         /* Cinza muito claro para bordas */
+    --cor-destaque-bg: #E0E0E0; /* Cinza médio para destaque */
+}
+
+/* Estilo Básico */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto-escuro);
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    padding: 25px 0;
+    text-align: center;
+    border-bottom: 5px solid var(--cor-destaque-bg);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* Conteúdo Principal */
+main {
+    padding: 30px;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 25px;
+    background-color: var(--cor-fundo-card);
+    border: 1px solid var(--cor-borda);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: var(--cor-principal);
+    border-bottom: 3px solid var(--cor-principal);
+    padding-bottom: 10px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+/* Destaque (Perfil) */
+#perfil-jogador {
+    background-color: var(--cor-destaque-bg);
+    border: 2px solid var(--cor-principal);
+}
+
+.card h3 {
+    font-size: 1.8em;
+    color: var(--cor-principal);
+    margin-top: 0;
+}
+
+/* Seção de Dicas (Layout em Colunas) */
+.dicas-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* Permite quebras de linha em telas menores */
+}
+
+.dicas-container article {
+    flex: 1;
+    min-width: 250px;
+    padding: 15px;
+    border: 1px dashed var(--cor-principal);
+    background-color: var(--cor-secundaria);
+}
+
+.dicas-container article h3 {
+    color: var(--cor-principal);
+    margin-top: 0;
+}
+
+/* Tabela de Jogadores */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid var(--cor-borda);
+}
+
+thead tr {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--cor-secundaria);
+}
+
+/* Blockquote para Destaques (Olimpíadas) */
+.destaque-olimpiadas {
+    background-color: var(--cor-secundaria);
+    border-left: 5px solid var(--cor-principal);
+    padding: 15px;
+    margin: 20px 0;
+    font-style: italic;
+    color: var(--cor-principal);
+}
+
+/* Links */
+a {
+    color: var(--cor-principal);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--cor-texto-escuro);
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
