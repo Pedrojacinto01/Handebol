@@ -7,7 +7,7 @@ Este projeto é um *template* de página web para o GitHub Pages com foco em Han
 
 ---
 
-## ✨ DESTAQUES DO PROJETO
+##  DESTAQUES DO PROJETO
 
 O site combina design moderno com interatividade funcional:
 
@@ -20,7 +20,7 @@ O site combina design moderno com interatividade funcional:
 
 ---
 
-## 👤 PERFIL EM FOCO
+##  PERFIL EM FOCO
 
 O projeto destaca o atleta **IG IEECAETAROCHA**, servindo como modelo para um perfil de performance:
 
@@ -28,7 +28,7 @@ O projeto destaca o atleta **IG IEECAETAROCHA**, servindo como modelo para um pe
 >
 > 📧 **Contato:** [PEDRO.JACINTO.MIGUEL@ESCOLA.PR.GOV.BR](mailto:PEDRO.JACINTO.MIGUEL@ESCOLA.PR.GOV.BR)
 
-## 🌐 COMO VISUALIZAR
+##  COMO VISUALIZAR
 
 Este é um projeto ideal para ser hospedado no **GitHub Pages**:
 
@@ -39,7 +39,7 @@ Este é um projeto ideal para ser hospedado no **GitHub Pages**:
 
 ---
 
-## 🛠️ PRÓXIMOS PASSOS (Sugestões)
+##  PRÓXIMOS PASSOS (Sugestões)
 
 O que você pode adicionar para melhorar o projeto:
 
