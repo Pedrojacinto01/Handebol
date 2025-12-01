@@ -8,7 +8,7 @@ O projeto utiliza um design minimalista em **Preto e Branco (P&B)**, ideal para 
 
 O projeto serve como um modelo para perfis de jogadores, utilizando os dados fornecidos:
 
-* **Nome/ID:** IG IEECAETAROCHA
+* **Nome/ID:** Instagram: IEECAETANOROCHA
 * **Contato:** PEDRO.JACINTO.MIGUEL@ESCOLA.PR.GOV.BR
 
 ## 🚀 Como Visualizar o Site
