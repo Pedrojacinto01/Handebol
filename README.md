@@ -1,33 +1,47 @@
-# 🏅 Handebol: Perfil Oficial e Informação Estruturada
+# 🚀 HANDEBOL ELITE: PERFORMANCE & INFORMAÇÃO
 
-Este projeto é um *template* de página web para o GitHub Pages, focado em Handebol. Foi desenvolvido com um design moderno e estruturado, inspirado em plataformas oficiais de Comitês Esportivos (mantendo o tema Preto & Branco, ou P&B).
+[![Status](https://img.shields.io/badge/Status-Pronto_para_Deploy-success)](link_do_seu_site)
+[![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS-blue)](/)
 
-## ✨ Destaques do Projeto
+Este projeto é um *template* de página web para o GitHub Pages com foco em Handebol. Desenvolvido para ter um **visual de alto impacto e profissional**, com foco na experiência do usuário e na informação detalhada.
 
-* **Design Profissional (P&B):** Layout moderno e limpo, com alto contraste (Preto e Branco) para leitura otimizada e um visual institucional.
-* **Tecnologias:** HTML5 (Estrutura), CSS3 (Estilo) e JavaScript (Interatividade).
-* **Funcionalidade JS:** Implementação de um botão para **Inversão de Contraste** (`.inverter-cores`), oferecendo uma opção de tema escuro/claro com um clique.
+---
 
-## 📋 Estrutura do Conteúdo
+## ✨ DESTAQUES DO PROJETO
 
-O site é organizado em seções claras e objetivas:
+O site combina design moderno com interatividade funcional:
 
-1.  **Perfil em Destaque:** Informações chave sobre o jogador (IG IEECAETAROCHA).
-2.  **Atualidade do Handebol:** Tendências táticas e o dinamismo do esporte.
-3.  **Dicas Essenciais e Fundamentos:** Explicações sobre regras e técnicas de jogo (Passe, Defesa 3-2-1).
-4.  **Jogadores que Fizeram História:** Tabela de referências e lendas da modalidade.
-5.  **Handebol nas Últimas Olimpíadas:** Resumo dos resultados e destaques olímpicos.
+| Recurso | Descrição | Tecnologia |
+| :--- | :--- | :--- |
+| **Design Vibrante** | Esquema de cores: **Azul Olímpico** e **Laranja VIVO**, que transmitem energia e confiança. | CSS |
+| **Conteúdo Interativo** | Seções de **Dicas e Lendas** são expansíveis (Acordeão). Clique para ver mais informações sem poluir a tela. | JavaScript |
+| **Alto Contraste** | Botão no cabeçalho para alternar o tema para cores neutras, aumentando a acessibilidade. | JavaScript & CSS |
+| **Estrutura Profissional** | Layout limpo, com informações do jogador e análise de jogos (Olimpíadas). | HTML5 |
 
-## 🔑 Informações do Atleta
+---
 
-* **ID/Nome:** IG IEECAETAROCHA
-* **Contato:** [PEDRO.JACINTO.MIGUEL@ESCOLA.PR.GOV.BR](mailto:PEDRO.JACINTO.MIGUEL@ESCOLA.PR.GOV.BR)
+## 👤 PERFIL EM FOCO
 
-## 🚀 Como Visualizar (GitHub Pages)
+O projeto destaca o atleta **IG IEECAETAROCHA**, servindo como modelo para um perfil de performance:
 
-Para hospedar o site usando seu repositório:
+> 🎯 **Foco Principal:** Armador Central (Playmaker), com ênfase em tática avançada e alto desempenho.
+>
+> 📧 **Contato:** [PEDRO.JACINTO.MIGUEL@ESCOLA.PR.GOV.BR](mailto:PEDRO.JACINTO.MIGUEL@ESCOLA.PR.GOV.BR)
 
-1.  No seu repositório, vá para **Settings (Configurações)**.
-2.  Clique em **Pages**.
-3.  Selecione a branch principal (`main` ou `master`) e a pasta raiz (`/ (root)`).
-4.  Salve. O site estará online no endereço do GitHub Pages em alguns minutos.
+## 🌐 COMO VISUALIZAR
+
+Este é um projeto ideal para ser hospedado no **GitHub Pages**:
+
+1.  Suba os arquivos (`index.html`, `styles.css`, `README.md`) para o seu repositório.
+2.  Vá em **Settings (Configurações)** > **Pages**.
+3.  Selecione a branch principal (`main`) e a pasta raiz (`/`).
+4.  Acesse o link gerado!
+
+---
+
+## 🛠️ PRÓXIMOS PASSOS (Sugestões)
+
+O que você pode adicionar para melhorar o projeto:
+
+* **Galeria de Imagens:** Adicionar fotos de lances e atletas (se hospedadas em um serviço externo ou no próprio repo).
+* **Estatísticas Dinâmicas:** Adicionar um placar simples ou estatísticas atualizáveis via JavaScript.
