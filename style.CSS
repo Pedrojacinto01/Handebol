@@ -1,0 +1,245 @@
+/* Definições de cores para o tema Preto & Branco */
+:root {
+    --cor-principal: #000;      /* Preto (para texto e títulos) */
+    --cor-secundaria: #FFF;    /* Branco (para fundo) */
+    --cor-texto-claro: #EEE;    /* Cinza muito claro */
+    --cor-texto-escuro: #333;   /* Cinza escuro para corpo do texto */
+    --cor-borda-detalhe: #1A1A1A; /* Quase preto para bordas de destaque */
+    --cor-fundo-secao: #F9F9F9; /* Cinza suave para fundo das seções */
+}
+
+/* Estilo Básico */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Fonte mais moderna */
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto-escuro);
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: 8px solid var(--cor-fundo-secao); /* Borda grossa de separação */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 900; /* Mais impacto */
+}
+
+/* Botão de Alternância (Tema) */
+header button#theme-toggle {
+    background-color: transparent;
+    color: var(--cor-secundaria);
+    border: 1px solid var(--cor-secundaria);
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header button#theme-toggle:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+}
+
+/* Conteúdo Principal */
+main {
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 45px;
+    padding: 30px;
+    background-color: var(--cor-fundo-secao);
+    border-left: 5px solid var(--cor-borda-detalhe); /* Detalhe lateral como em layouts oficiais */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: var(--cor-principal);
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 15px;
+    margin-top: 0;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* Perfil em Destaque */
+#perfil-jogador {
+    border-left-color: var(--cor-principal); /* Borda mais escura para destaque */
+    background-color: var(--cor-secundaria);
+    padding: 40px;
+}
+
+.card h3 {
+    font-size: 2.2em;
+    color: var(--cor-principal);
+    margin-top: 0;
+    font-weight: 900;
+}
+
+/* Seção de Dicas (Layout em Colunas) */
+.dicas-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.dicas-container article {
+    padding: 20px;
+    border: 1px solid #DDD;
+    background-color: var(--cor-secundaria);
+    transition: box-shadow 0.3s;
+}
+
+.dicas-container article:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabela de Jogadores */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    text-align: left;
+    font-size: 0.95em;
+}
+
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+thead tr {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    text-transform: uppercase;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--cor-secundaria);
+}
+tbody tr:hover {
+    background-color: #F0F0F0;
+}
+
+/* Blockquote para Destaques (Olimpíadas) */
+.destaque-olimpiadas {
+    background-color: var(--cor-secundaria);
+    border-left: 5px solid #666; /* Cinza médio como detalhe */
+    padding: 20px;
+    margin: 25px 0;
+    font-style: italic;
+    color: var(--cor-principal);
+    font-size: 1.1em;
+}
+
+/* Links */
+a {
+    color: var(--cor-borda-detalhe);
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--cor-principal);
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 40px;
+    font-size: 0.9em;
+    border-top: 8px solid var(--cor-fundo-secao);
+}
+
+/* ==================================== */
+/* CÓDIGO JAVASCRIPT: TEMA INVERTIDO (Modo Escuro) */
+/* ==================================== */
+
+body.inverter-cores {
+    background-color: var(--cor-principal);
+    color: var(--cor-texto-claro);
+}
+
+body.inverter-cores header {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+    border-bottom-color: var(--cor-principal);
+}
+
+body.inverter-cores header button#theme-toggle {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    border-color: var(--cor-principal);
+}
+
+body.inverter-cores section {
+    background-color: #1A1A1A; /* Fundo de seção escuro */
+    border-left-color: var(--cor-secundaria);
+    box-shadow: 0 1px 3px rgba(255, 255, 255, 0.1);
+}
+
+body.inverter-cores section h2,
+body.inverter-cores .card h3 {
+    color: var(--cor-secundaria);
+    border-bottom-color: #444;
+}
+
+body.inverter-cores #perfil-jogador {
+    background-color: #0A0A0A;
+    border-left-color: var(--cor-secundaria);
+}
+
+body.inverter-cores .dicas-container article {
+    background-color: #222;
+    border-color: #444;
+    color: var(--cor-texto-claro);
+}
+
+body.inverter-cores a {
+    color: #999;
+}
+
+body.inverter-cores a:hover {
+    color: var(--cor-secundaria);
+}
+
+body.inverter-cores thead tr {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+}
+
+body.inverter-cores tbody tr:nth-child(even) {
+    background-color: #333;
+}
+
+body.inverter-cores tbody tr:hover {
+    background-color: #444;
+}
+
+body.inverter-cores footer {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+    border-top-color: var(--cor-principal);
+}
